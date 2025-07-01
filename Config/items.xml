@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+
+	<!-- ammo -->
+	
+	<set xpath="/items/item[starts-with(@name, 'ammo')]/property[@name='Tags' and 
+	(@value='ammo762mm' or 
+	@value='ammo,shotgun,ammoShells' or 
+	@value='ammo762mm' or
+	@value='ammo,ranged,attAgility,perkArchery,perkPenetrator' or 
+	@value='ammo,ranged,attAgility,perkArchery,perkPenetrator,perkDemolitionsExpert')]/../property[@name='Stacknumber']/@value">1000</set>
+	
+	<set xpath="/items/item[starts-with(@name, 'ammo')]/property[@name='Tags' and 
+	(@value='ammo,ammo9mm')]/../property[@name='Stacknumber']/@value">1000</set>
+	
+	<set xpath="/items/item[@name='ammoDartIron']/property[@name='Stacknumber']/@value">30000</set>
+	
+	<!-- thrown ammo (and water)-->
+	
+	<set xpath="/items/item[@name='thrownAmmoPipeBomb' or 
+	@name='thrownGrenadeContact' or
+	@name='thrownGrenade' or
+	@name='thrownTimedCharge' or
+	@name='thrownDynamite' or
+	@name='thrownAmmoMolotovCocktail']/property[@name='Stacknumber']/@value">50</set>
+
+	<!--@name='drinkJarBoiledWater' or -->
+	
+	<!-- resourse ammo -->
+	
+	<set xpath="/items/item[@name='resourceBuckshot' or 
+	@name='resourceBulletCasing' or
+	@name='resourceBulletTip' or
+	@name='resourceGunPowder']/property[@name='Stacknumber']/@value">3000</set>
+	
+	<!-- resourses -->
+	
+	<set xpath="/items/item[@name='resourceForgedIron' or
+	@name='resourceForgedSteel' or
+	@name='resourceCloth' or
+	@name='resourceLeather']/property[@name='Stacknumber']/@value">1000</set>
+	
+	<set xpath="/items/item[@name='resourceCoal' or 
+	@name='resourcePotassiumNitratePowder' or
+	@name='resourceScrapLead' or
+	@name='resourceScrapBrass' or
+	@name='resourceScrapIron' or
+	@name='resourceCrushedSand' or
+	@name='resourceWood' or
+	@name='resourceClayLump' or
+	@name='resourceRockSmall']/property[@name='Stacknumber']/@value">10000</set>
+	
+	<set xpath="/items/item[@name='resourceElectricParts' or 
+	@name='resourceMechanicalParts' or
+	@name='resourceCobblestones' or
+	@name='resourceConcreteMix' or
+	@name='resourceCement' or
+	@name='resourcePaper']/property[@name='Stacknumber']/@value">3000</set>
+	
+	<set xpath="/items/item[@name='resourceRadiator']/property[@name='Stacknumber']/@value">50</set>
+	
+	<set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">50000</set>
+	
+	<!-- food -->
+	
+	<set xpath="/items/item[@name='foodRawMeat' or
+	@name='foodRottingFlesh' or
+	@name='foodCornMeal' or
+	@name='foodCropBlueberries' or
+	@name='foodCropCorn' or
+	@name='foodCropPotato' or
+	@name='foodCropMushrooms' or
+	@name='foodCropYuccaFruit' or
+	@name='foodCropPumpkin']/property[@name='Stacknumber']/@value">300</set>
+	
+	<set xpath="/items/item[starts-with(@name, 'foodCan') or starts-with(@name, 'drinkJar')]/property[@name='Stacknumber']/@value">30</set>
+	
+	<!-- Medkits -->
+	
+	<set xpath="/items/item[@name='medicalFirstAidBandage' or
+	@name='medicalFirstAidKit']/property[@name='Stacknumber']/@value">10</set>
+	
+	<set xpath="/items/item[@name='medicalAloeCream' or
+	@name='drugVitamins' or
+	@name='drugPainkillers' or
+	@name='drugHerbalAntibiotics' or
+	@name='drugAntibiotics' or
+	@name='drugSteroids']/property[@name='Stacknumber']/@value">50</set>
+</configs>
