@@ -3,28 +3,18 @@
 
 	<!-- ammo -->
 	
-	<set xpath="/items/item[starts-with(@name, 'ammo')]/property[@name='Tags' and 
-	(@value='ammo762mm' or 
-	@value='ammo,shotgun,ammoShells' or 
-	@value='ammo762mm' or
-	@value='ammo,ranged,attAgility,perkArchery,perkPenetrator' or 
-	@value='ammo,ranged,attAgility,perkArchery,perkPenetrator,perkDemolitionsExpert')]/../property[@name='Stacknumber']/@value">1000</set>
+	<set xpath="/items/item[@name='ammo762mmBulletBall' or
+	@name='ammo9mmBulletBall' or
+	@name='ammoShotgunShell']/property[@name='Stacknumber']/@value">500</set>
 	
-	<set xpath="/items/item[starts-with(@name, 'ammo')]/property[@name='Tags' and 
-	(@value='ammo,ammo9mm')]/../property[@name='Stacknumber']/@value">1000</set>
+	<set xpath="/items/item[@name='ammoArrowExploding' or
+	@name='ammoCrossbowBoltExploding']/property[@name='Stacknumber']/@value">150</set>
 	
-	<set xpath="/items/item[@name='ammoDartIron']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='ammoDartIron']/property[@name='Stacknumber']/@value">1000</set>
 	
 	<!-- thrown ammo (and water)-->
 	
-	<set xpath="/items/item[@name='thrownAmmoPipeBomb' or 
-	@name='thrownGrenadeContact' or
-	@name='thrownGrenade' or
-	@name='thrownTimedCharge' or
-	@name='thrownDynamite' or
-	@name='thrownAmmoMolotovCocktail']/property[@name='Stacknumber']/@value">50</set>
-
-	<!--@name='drinkJarBoiledWater' or -->
+	<set xpath="/items/item[starts-with(@name, 'thrown') and not(contains(@name, 'Admin'))]/property[@name='Stacknumber']/@value">50</set>
 	
 	<!-- resourse ammo -->
 	
@@ -55,7 +45,7 @@
 	@name='resourceCobblestones' or
 	@name='resourceConcreteMix' or
 	@name='resourceCement' or
-	@name='resourcePaper']/property[@name='Stacknumber']/@value">3000</set>
+	@name='resourcePaper']/property[@name='Stacknumber']/@value">2000</set>
 	
 	<set xpath="/items/item[@name='resourceRadiator']/property[@name='Stacknumber']/@value">50</set>
 	
