@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xml>
-    <Name>Increase Stack Mod</Name>
-    <DisplayName>Increase Stack</DisplayName>
-    <Description>Increases stacks of sertain items</Description>
-    <Author>MoDe</Author>
-    <Version>3.0.0</Version>
+    <Name value="Increase_Stacks" />
+    <DisplayName value="Increase Stack" />
+    <Description value="Increases stacks of sertain items" />
+    <Author value="MoDe" />
+    <Version value="3.0.1" />
 </xml>
+
